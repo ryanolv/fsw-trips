@@ -17,7 +17,7 @@ import { Separator } from "./ui/separator";
 const Header = () => {
   const { data, status } = useSession();
   return (
-    <div className="flex items-center justify-between">
+    <div className="flex items-center justify-between px-5">
       <div className="flex gap-3 items-center">
         <Image src="/logo.png" alt="Logo" width={30} height={32} />
         <h1 className="text-xl font-semibold text-primary">Fullstack Trips</h1>
